@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: dimgrey;
+    color: white;
+    text-align: left;
+}
+
+header {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}       
+
+h1 {
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    [data-pagination] {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+  
+footer{
+    display: flex;
+    justify-content: center;
+}
